@@ -3,8 +3,8 @@ import csv
 from collections import Counter, defaultdict
 
 # File paths
-log_file = "E:\\sample.log"
-output_csv = "E:\\log_analysis_results.csv"
+log_file = "sample.log"
+output_csv = "log_analysis_results.csv"
 
 # Configurable threshold for suspicious activity
 FAILED_LOGIN_THRESHOLD = 10
